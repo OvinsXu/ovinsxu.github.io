@@ -1,14 +1,7 @@
----
-layout: home
-title: Readme
-permalink: /
----
+# My Bolg
 
-My GitBook!
-
-## Demo
-
-
+这是我的博客,请通过此链接访问:https://ovinsxu.github.io/    
+使用了Gitbook主题,一些配置如下:    
 
 ## Code highlight
 
@@ -116,22 +109,38 @@ The effect can be previewed from
 
 [https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
 
+## Wide tables
+
+A wide tables needs to be wrapped into a `div` with class `table-wrapper`
+to make sure it displayed as expected on mobile devices. For example,
+
+```markdown
+<div class="table-wrapper" markdown="block">
+
+|title1|title2|title3|title4|title5|title6|title7|title8|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+
+</div>
+```
+
+Will be rendered as
+
+<div class="table-wrapper" markdown="block">
+
+|title1|title2|title3|title4|title5|title6|title7|title8|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+|1|2|3|4|5|6|7|8|
+
+</div>
+
+
 ## License
 
 版权申明：保持署名-自由转载-非商业-禁止衍生! [(创意共享4.0 国际许可协议)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
-[7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
-[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
-[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[12]: https://rubygems.org/gems/jekyll-remote-theme
-[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml

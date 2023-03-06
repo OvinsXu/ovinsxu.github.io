@@ -118,7 +118,7 @@ The effect can be previewed from
 
 ## License
 
-版权申明：保持署名-自由转载-非商业-禁止衍生![（创意共享4.0 国际许可协议）](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+版权申明：保持署名-自由转载-非商业-禁止衍生! [(创意共享4.0 国际许可协议)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
 [1]: https://pages.github.com

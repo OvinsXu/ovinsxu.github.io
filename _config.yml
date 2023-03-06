@@ -18,7 +18,7 @@ remote_theme: sighingnow/jekyll-gitbook
 toc:
   enabled: true
   h_min: 1
-  h_max: 3
+  h_max: 1
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
@@ -47,6 +47,9 @@ exclude:
 
 collections:
   pages:
+    output: true
+    permalink: /:collection/:path/
+  demo:
     output: true
     permalink: /:collection/:path/
 
